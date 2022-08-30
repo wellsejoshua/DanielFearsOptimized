@@ -1,0 +1,22 @@
+:root{
+    --primary-color: #b78d67;
+    --secondary-color: #ff993b;
+    --dark-color: #000000;
+    --white-color: #e7e7e7;
+    --modalText-color:#fffce1;
+}
+
+body{
+    color:var(--dark-color);
+    background: rgb(48, 46, 46);
+    
+    /*background: #2980b9;  /* fallback for old browsers */
+   /* background: -webkit-linear-gradient(to right, #2c3e50, #b78d67);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #2c3e50, #b78d67); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+/*
+.g-recaptcha div:first-child
+  {
+    margin: auto;
+  } */

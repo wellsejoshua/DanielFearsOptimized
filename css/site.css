@@ -1,0 +1,242 @@
+:root{
+    --primary-color: #b78d67;
+    --secondary-color: #ff993b;
+    --dark-color: #000000;
+    --white-color: #e7e7e7;
+    --modalText-color:#fffce1;
+    --grey-color: rgb(54, 54, 54);
+}
+@font-face{
+    src:url(/fonts/Qanaya-Regular.ttf);
+    font-family: qanaya;
+}
+.pressparagraph{
+    font-size:3em ;
+    opacity: .9;
+    color: black;
+}
+/*html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+*/
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body{
+    color:var(--dark-color);
+    background-color:var(--dark-color);
+   
+
+    /*  
+    background: #F3904F;  fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #3B4371, #F3904F);
+    background: linear-gradient(to right, #3B4371, #F3904F); 
+    */
+}
+nav{
+    background-color: transparent;
+    background: rgba(255, 252, 225, .35);
+    color: #b78d67;
+}
+
+
+.navbar-brand{color: #b78d67!important;}
+.nav-link{color:#b78d67!important; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold;}
+.nav-link:hover{color: aliceblue!important;}
+@media(max-width:668px){
+    .nav-link{ text-align: center;}
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+  }
+
+
+footer{
+    background-color: var(--dark-color);
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--modalText-color);
+    text-align: center;
+}
+
+p{
+    color: black;
+}
+/*
+main>.container {
+    padding: 60px 15px 0;
+}
+*/
+main>.container {
+    padding: 0px 0px 0;
+}
+main .releases>h1,h2,h3,h4,h5,h6{
+    color: var(--primary-color);
+    text-align: center;
+}
+footer{
+    padding-right: 0rem;
+}
+footer .social>a{
+    color: var(--primary-color);
+    opacity: .75;
+}
+footer .social>a:hover{
+    opacity: 0.9;
+    color: var(--white-color) ;
+}
+nav .social>a{
+    color: var(--primary-color);
+    opacity: .75;
+}
+nav .social>a:hover{
+    opacity: 0.9;
+    color: var(--white-color) ;
+}
+.modal .social>a{
+    color: var(--primary-color);
+    opacity: .75;
+}
+.modal .social>a:hover{
+    opacity: 0.9;
+    color: var(--white-color) ;
+}
+
+.bsicon{
+    color: purple;
+}
+.jsicon{
+    color:rgb(226,211,4) ;
+}
+.html5icon{
+    color: orangered;
+}
+.csicon{
+    color:rgb(11,82,214) ;
+}
+.checklist >li i{
+    color: var(--secondary-color);
+}
+
+/* footer .logo>img{
+    width: 50%;
+
+} */
+
+.carousel-item{
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: contain;
+}
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    }
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+          }
+
+/* Press Section Rules*/
+.press{
+    background: rgba(255, 252, 225, .2);
+    color: var(--modalText-color);
+}
+.presssecondary{
+    background: black;
+    color: var(--modalText-color);
+}
+h4.press{
+    color: var(--primary-color);
+
+}
+p.press{
+    color: black;
+    background-color: transparent;
+}
+a.press{
+    background-color: var(--primary-color);
+}
+/* modified button classes*/
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #e03a08 !important;
+    color: #fffce1;
+    opacity: .6;
+    border: 0px;
+    }
+
+
+/* cards */
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited {
+    background-color: var(--primary-color) !important;
+    color: #fffce1;
+    opacity: .75;
+    border: 0px;
+    }
+
+.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
+    background-color: var(--grey-color) !important;
+    color: #fffce1;
+    opacity: .75;
+    border: 0px;
+    }
+
+.upcomingshows{
+    color: #000000;
+    background-color: #777;
+}
+.contactForm{
+    color: var(--modalText-color);
+    background-color: var(--primary-color);
+}
+p.contactForm{
+    color: #e03a08;
+}
+main .contactForm>h1,h2,h3,h4,h5,h6{
+    color: var(--modalText-color);
+    text-align: center;
+    opacity: .75;
+}
+
+p.modalp{
+    color: var(--modalText-color);
+    font-family: qanaya;
+}
